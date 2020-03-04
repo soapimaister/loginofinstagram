@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SD + BITACORA</string>
+    <string name="txv1">¿Olvidaste tus datos de inicio de sesión?</string>
+    <string name="txv2">Obtén ayuda.</string>
+    <string name="txv3">Iniciar sesión con Facebook</string>
+    <string name="edt1">Teléfono, correo electrónico o usuario</string>
+    <string name="edt2">Contraseña</string>
+    <string name="b1">Iniciar sesión</string>
+    <string name="txv4">¿No tienes una cuenta?</string>
+    <string name="txv5">Regístrate.</string>
+    <string name="txv6">from</string>
+    <string name="txv7">FACEBOOK</string>
+    <string name="img"></string>
+    <string name="edteligeusario">Elige un nombre de \n usuario</string>
+    <string name="puedes">Puedes cambiarlo más tarde</string>
+    <string name="Nombredeusuario">Nombre de usuario</string>
+    <string name="next">Siguiente</string>
+    <string name="eligepass">Elige una contraseña</string>
+    <string name="datopass">Mientras mas compleja, mas segura</string>
+    <string name="pass1">Ingresa una contraseña</string>
+    <string name="pass2">Reingresa la contraseña</string>
+    <string name="guardarboton">Registrar</string>
+    <string name="registrocompleto">Registro Completo</string>
+    <string name="contraseñasincorrectas">Contraseñas incorrectas</string>
+</resources>

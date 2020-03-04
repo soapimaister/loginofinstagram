@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/edt1a4"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edtexts"
+        android:ems="10"
+        android:hint="@string/Nombredeusuario"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:textColorHint="#949494"
+        android:textSize="14sp"
+        android:padding="12dp"
+        tools:ignore = "Autofill"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="236dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/edteligeusario"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/puedes"
+        android:textColor="#949494"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/boton"
+        android:onClick="siguiente"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt1a4"
+        android:textAllCaps="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
